@@ -8,3 +8,5 @@ To run Application double click on Recommender.jar
 Documentation in the form of JavaDocs is located in javadoc
 
 open  /javadoc/index.html
+
+code located at /src/recommender
