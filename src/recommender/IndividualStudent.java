@@ -2,7 +2,7 @@ package recommender;
 
 import java.util.*;
 
-public class IndividualStudent implements Student{
+public class IndividualStudent implements Student {
     private final String studentID;
     private final String studentName;
     private final int studentYear;
@@ -32,6 +32,7 @@ public class IndividualStudent implements Student{
 
     /**
      * adds passes courses to list
+     * 
      * @param courseCode
      */
     public void addPassedCourse(String courseCode) {
@@ -48,6 +49,7 @@ public class IndividualStudent implements Student{
 
     /**
      * sets the recommended courses
+     * 
      * @param recommendedCourses
      */
     public void setRecommendedCourses(String recommendedCourses) {
@@ -56,6 +58,7 @@ public class IndividualStudent implements Student{
 
     /**
      * gets the recommended courses
+     * 
      * @return String object
      */
     public String getRecommendedCourses() {
@@ -70,7 +73,9 @@ public class IndividualStudent implements Student{
         return this.studentYear;
     }
 
-    /** Checks if given id is equal to this.student id
+    /**
+     * Checks if given id is equal to this.student id
+     * 
      * @param id
      * @return boolean object
      */
